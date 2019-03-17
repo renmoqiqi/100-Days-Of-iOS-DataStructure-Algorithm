@@ -13,6 +13,6 @@
 #### 封面
 ![iOS数据结构与开发实战封面.png](https://upload-images.jianshu.io/upload_images/1304277-359a61e825c7a3e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
 
-#### 内容
+#### 目录内容
 
 ![电子书目录](https://upload-images.jianshu.io/upload_images/1304277-f574ef3585614783.GIF?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
