@@ -16,3 +16,9 @@
 #### 目录内容
 
 ![电子书目录](https://upload-images.jianshu.io/upload_images/1304277-f574ef3585614783.GIF?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+
+#### [Day01 - 算法的符号大O](https://mp.weixin.qq.com/s?__biz=MzI0MTcwNDcyMw==&mid=2247483771&idx=1&sn=9e3a500ee8845e2e7601a085c850bb3b&chksm=e906cb07de714211ee7308c49ffd2059e73be421d3e7174f86b69f8f2e0e39a4acaa05369b80&token=99181284&lang=zh_CN#rd)
+
+* 为什么要学习算法呢
+* 数学公式复习
+* 常用复杂度函数公式O(?)
