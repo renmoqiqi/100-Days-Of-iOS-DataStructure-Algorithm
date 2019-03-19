@@ -21,7 +21,7 @@
 ## 实现方式
 主要有两种方法来实现栈：使用数组，使用链表。我们代码是用数组来实现的。
 
-##栈的基本操作方式
+## 栈的基本操作方式
 ```
 DSStack *testStack = [[DSStack alloc] initWithSize:4];
     [testStack push:@"1"];
