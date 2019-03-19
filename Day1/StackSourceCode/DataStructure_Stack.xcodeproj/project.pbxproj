@@ -285,10 +285,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TFEY5JV6HS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DataStructure_Stack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.penghe.test.DataStructure-Stack";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiqi.test.DataStructure-Stack";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,10 +299,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TFEY5JV6HS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DataStructure_Stack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.penghe.test.DataStructure-Stack";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiqi.test.DataStructure-Stack";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
