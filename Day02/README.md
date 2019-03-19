@@ -107,5 +107,5 @@ DSStack *testStack = [[DSStack alloc] initWithSize:4];
 ## 栈操作复杂度
 压栈操作是将新元素压入数组的尾部，而不是头部。在数组的头部插入元素是一个很耗时的操作，它的时间复杂度为 O(n)，因为需要将现有元素往后移位为新元素腾出空间。而在尾部插入元素的时间复杂度为 O(1)；无论数组有多少元素，这个操作所消耗的时间都是一个常量。
 ## 栈的实现Demo
-[代码链接](https://github.com/renmoqiqi/100-Days-Of-iOS-DataStructure-Algorithm/tree/master/Day1)
+[代码链接](https://github.com/renmoqiqi/100-Days-Of-iOS-DataStructure-Algorithm/tree/master/Day02)
 
