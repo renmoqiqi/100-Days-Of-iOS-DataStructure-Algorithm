@@ -29,3 +29,7 @@
 * 栈最常见的场景及算法
 * 复杂度
 * 代码实现
+#### [Day03 -  栈的算法实战Valid Parentheses](https://mp.weixin.qq.com/s/oIsmBrH5RXD0PXtqgds5ng)
+* 思路描述
+* 代码实现
+* 复杂度估算
