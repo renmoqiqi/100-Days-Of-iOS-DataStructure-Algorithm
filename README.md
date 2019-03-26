@@ -44,3 +44,10 @@
 * 思路描述
 * GitHubDemo
 
+#### [Day06 - 栈的算法实战 Simplify Path](https://mp.weixin.qq.com/s/_4OsJlai0pvifeNMpHROPA)
+* 题目思路描述
+* 灵感示意图
+* 主要代码实现
+* 代码思路描述
+* GitHubDemo
+
