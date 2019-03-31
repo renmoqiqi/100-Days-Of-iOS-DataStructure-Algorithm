@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0FC4ADC22506E0D008F3A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC4ADB22506E0D008F3A41 /* AppDelegate.m */; };
+		C0FC4ADF22506E0D008F3A41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC4ADE22506E0D008F3A41 /* ViewController.m */; };
+		C0FC4AE222506E0D008F3A41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FC4AE022506E0D008F3A41 /* Main.storyboard */; };
+		C0FC4AE422506E0F008F3A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FC4AE322506E0F008F3A41 /* Assets.xcassets */; };
+		C0FC4AE722506E0F008F3A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FC4AE522506E0F008F3A41 /* LaunchScreen.storyboard */; };
+		C0FC4AEA22506E0F008F3A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC4AE922506E0F008F3A41 /* main.m */; };
+		C0FC4AF222506E7C008F3A41 /* DSStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC4AF122506E7C008F3A41 /* DSStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0FC4AD722506E0D008F3A41 /* Stack_TrappingRainWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stack_TrappingRainWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FC4ADA22506E0D008F3A41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0FC4ADB22506E0D008F3A41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0FC4ADD22506E0D008F3A41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0FC4ADE22506E0D008F3A41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0FC4AE122506E0D008F3A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0FC4AE322506E0F008F3A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FC4AE622506E0F008F3A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0FC4AE822506E0F008F3A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FC4AE922506E0F008F3A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0FC4AF022506E7C008F3A41 /* DSStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSStack.h; sourceTree = "<group>"; };
+		C0FC4AF122506E7C008F3A41 /* DSStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSStack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FC4AD422506E0D008F3A41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0FC4ACE22506E0D008F3A41 = {
+			isa = PBXGroup;
+			children = (
+				C0FC4AD922506E0D008F3A41 /* Stack_TrappingRainWater */,
+				C0FC4AD822506E0D008F3A41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FC4AD822506E0D008F3A41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC4AD722506E0D008F3A41 /* Stack_TrappingRainWater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FC4AD922506E0D008F3A41 /* Stack_TrappingRainWater */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC4ADA22506E0D008F3A41 /* AppDelegate.h */,
+				C0FC4ADB22506E0D008F3A41 /* AppDelegate.m */,
+				C0FC4ADD22506E0D008F3A41 /* ViewController.h */,
+				C0FC4ADE22506E0D008F3A41 /* ViewController.m */,
+				C0FC4AF022506E7C008F3A41 /* DSStack.h */,
+				C0FC4AF122506E7C008F3A41 /* DSStack.m */,
+				C0FC4AE022506E0D008F3A41 /* Main.storyboard */,
+				C0FC4AE322506E0F008F3A41 /* Assets.xcassets */,
+				C0FC4AE522506E0F008F3A41 /* LaunchScreen.storyboard */,
+				C0FC4AE822506E0F008F3A41 /* Info.plist */,
+				C0FC4AE922506E0F008F3A41 /* main.m */,
+			);
+			path = Stack_TrappingRainWater;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FC4AD622506E0D008F3A41 /* Stack_TrappingRainWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FC4AED22506E0F008F3A41 /* Build configuration list for PBXNativeTarget "Stack_TrappingRainWater" */;
+			buildPhases = (
+				C0FC4AD322506E0D008F3A41 /* Sources */,
+				C0FC4AD422506E0D008F3A41 /* Frameworks */,
+				C0FC4AD522506E0D008F3A41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stack_TrappingRainWater;
+			productName = Stack_TrappingRainWater;
+			productReference = C0FC4AD722506E0D008F3A41 /* Stack_TrappingRainWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FC4ACF22506E0D008F3A41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = WondersGroup;
+				TargetAttributes = {
+					C0FC4AD622506E0D008F3A41 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = C0FC4AD222506E0D008F3A41 /* Build configuration list for PBXProject "Stack_TrappingRainWater" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FC4ACE22506E0D008F3A41;
+			productRefGroup = C0FC4AD822506E0D008F3A41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FC4AD622506E0D008F3A41 /* Stack_TrappingRainWater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FC4AD522506E0D008F3A41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FC4AE722506E0F008F3A41 /* LaunchScreen.storyboard in Resources */,
+				C0FC4AE422506E0F008F3A41 /* Assets.xcassets in Resources */,
+				C0FC4AE222506E0D008F3A41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FC4AD322506E0D008F3A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FC4ADF22506E0D008F3A41 /* ViewController.m in Sources */,
+				C0FC4AF222506E7C008F3A41 /* DSStack.m in Sources */,
+				C0FC4AEA22506E0F008F3A41 /* main.m in Sources */,
+				C0FC4ADC22506E0D008F3A41 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0FC4AE022506E0D008F3A41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FC4AE122506E0D008F3A41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0FC4AE522506E0F008F3A41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FC4AE622506E0F008F3A41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0FC4AEB22506E0F008F3A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0FC4AEC22506E0F008F3A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FC4AEE22506E0F008F3A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stack_TrappingRainWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiqi..Stack-TrappingRainWater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0FC4AEF22506E0F008F3A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stack_TrappingRainWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiqi..Stack-TrappingRainWater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FC4AD222506E0D008F3A41 /* Build configuration list for PBXProject "Stack_TrappingRainWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FC4AEB22506E0F008F3A41 /* Debug */,
+				C0FC4AEC22506E0F008F3A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FC4AED22506E0F008F3A41 /* Build configuration list for PBXNativeTarget "Stack_TrappingRainWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FC4AEE22506E0F008F3A41 /* Debug */,
+				C0FC4AEF22506E0F008F3A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FC4ACF22506E0D008F3A41 /* Project object */;
+}
