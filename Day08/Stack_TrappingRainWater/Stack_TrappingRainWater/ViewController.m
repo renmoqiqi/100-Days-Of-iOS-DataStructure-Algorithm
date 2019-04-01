@@ -20,39 +20,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSArray *testArray = @[@0,@1,@0,@2,@1,@0,@1,@3,@2,@1,@2,@1];
-   NSLog(@"%d",[self trap:testArray]);
+    NSLog(@"%ld",(long)[self trap:testArray]);
 }
 
-- (int)trap:(NSArray *)inputArray
+- (NSInteger)trap:(NSArray *)inputArray
 {
     if (inputArray.count == 0)
     {
         return 0;
     }
     
-    DSStack *newStack = [[DSStack alloc] initWithSize:10];
-    int ans = 0, current = 0;
+    DSStack *newStack = [[DSStack alloc] initWithSize:15];
+    NSInteger sumWater = 0, current = 0;
+    
     while (current < inputArray.count)
     {
-        int peek = [inputArray[[[newStack peek] intValue]] intValue];
 
-        while (![newStack isEmpty] && ([inputArray[current] intValue] > peek))
+        while (![newStack isEmpty] && ([inputArray[current] integerValue] > [inputArray[[[newStack peek] intValue]] integerValue]))
         {
-            int top = [[newStack peek] intValue];
+            NSInteger top = [[newStack peek] integerValue];
             [newStack popLastObject];
             if ([newStack isEmpty])
             {
                 break;
             }
-            int distance = current - [[newStack popLastObject] intValue] - 1;
+            NSInteger distance = current - [[newStack popLastObject] integerValue] - 1;
 
-            NSNumber *currentN = [NSNumber numberWithInt:[inputArray[current] intValue]];
+            NSNumber *currentN = [NSNumber numberWithInteger:[inputArray[current] integerValue]];
 
-           NSNumber *disN = [NSNumber numberWithInt:((int)inputArray[[[newStack popLastObject] intValue]] - (int)[inputArray[top] intValue])];
+           NSNumber *peekN = [NSNumber numberWithInteger:[inputArray[top] integerValue]];
 
             NSNumber *minObj;
 
-            NSComparisonResult r = [currentN compare:disN];
+            NSComparisonResult r = [currentN compare:peekN];
             if (r == NSOrderedAscending)
             {
                 minObj = currentN;
@@ -60,19 +60,20 @@
             }
             else if(r == NSOrderedSame)
             {
+                minObj = currentN;
 
             }
             else if(r == NSOrderedDescending)
             {
-                minObj = disN;
+                minObj = peekN;
             }
-            int bounded_height = [minObj intValue];
-            ans += distance * bounded_height;
+            NSInteger bounded_height = [minObj integerValue] - [inputArray[top] integerValue];
+            sumWater += distance * bounded_height;
 
         }
         [newStack push:@(current++)];
     }
-    return ans;
+    return sumWater;
 
 }
 
