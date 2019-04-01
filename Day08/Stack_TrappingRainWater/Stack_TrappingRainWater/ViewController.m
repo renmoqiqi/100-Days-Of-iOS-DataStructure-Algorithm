@@ -23,7 +23,7 @@
     NSLog(@"%ld",(long)[self trap:testArray]);
 }
 
-- (NSInteger)trap:(NSArray *)inputArray
+- (int)trap:(NSArray *)inputArray
 {
     if (inputArray.count == 0)
     {
@@ -31,24 +31,24 @@
     }
     
     DSStack *newStack = [[DSStack alloc] initWithSize:15];
-    NSInteger sumWater = 0, current = 0;
+    int sumWater = 0, current = 0;
     
     while (current < inputArray.count)
     {
 
-        while (![newStack isEmpty] && ([inputArray[current] integerValue] > [inputArray[[[newStack peek] intValue]] integerValue]))
+        while (![newStack isEmpty] && ([inputArray[current] intValue] > [inputArray[[[newStack peek] intValue]] intValue]))
         {
-            NSInteger top = [[newStack peek] integerValue];
+            int top = [[newStack peek] intValue];
             [newStack popLastObject];
             if ([newStack isEmpty])
             {
                 break;
             }
-            NSInteger distance = current - [[newStack popLastObject] integerValue] - 1;
+            int distance = current - [[newStack peek] intValue] - 1;
 
-            NSNumber *currentN = [NSNumber numberWithInteger:[inputArray[current] integerValue]];
+            NSNumber *currentN = [NSNumber numberWithInt:[inputArray[current] intValue]];
 
-           NSNumber *peekN = [NSNumber numberWithInteger:[inputArray[top] integerValue]];
+            NSNumber *peekN = [NSNumber numberWithInt:[inputArray[[[newStack peek] intValue]] intValue]];
 
             NSNumber *minObj;
 
@@ -67,10 +67,11 @@
             {
                 minObj = peekN;
             }
-            NSInteger bounded_height = [minObj integerValue] - [inputArray[top] integerValue];
+            int bounded_height = [minObj intValue] - [inputArray[top] intValue];
             sumWater += distance * bounded_height;
 
         }
+        
         [newStack push:@(current++)];
     }
     return sumWater;
