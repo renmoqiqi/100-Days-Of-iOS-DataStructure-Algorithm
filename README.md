@@ -58,3 +58,11 @@
 * 代码思路描述
 * GitHubDemo
 
+#### [Day08 - 栈的算法实战 TrappingRainWater](https://mp.weixin.qq.com/s/PLWnIyxROZNBHauHz7g2Yw)
+* 题目描述
+* 灵感示意图
+* 思路
+* 过程图
+* 主要代码实现
+* 代码思路描述
+* GitHubDemo
