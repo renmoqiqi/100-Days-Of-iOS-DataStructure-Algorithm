@@ -23,7 +23,7 @@
 * 数学公式复习
 * 常用复杂度函数公式O(?)
 
-#### [Day02 -  栈](https://mp.weixin.qq.com/s/vcVoqV-KNNTb8vnoLcds2A)
+#### [Day02 -  栈](https://mp.weixin.qq.com/s/3_k0ndSVzVJLzdV3hLlwzg)
 * 栈的特性
 * 动画描述
 * 栈最常见的场景及算法
