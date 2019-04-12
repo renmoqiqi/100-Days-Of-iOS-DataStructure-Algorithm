@@ -77,9 +77,13 @@
 #### [Day10 - 队列](https://mp.weixin.qq.com/s/1Yhox83ecSGIO7NwvTUtNQ)
 * 队列的特性
 * 有几个注意的地方。
-* 结代码
+* 主要代码讲解
 * 总结
 * GitHubDemo地址
 
-
+#### [Day11 - 双端队列](https://mp.weixin.qq.com/s/c9a7L8P2ozNjxIeuLBgX0w)
+* 双端队列的特性
+* 优化思路
+* 主要代码实现以及讲解
+* GitHubDemo地址
 
