@@ -86,4 +86,8 @@
 * 优化思路
 * 主要代码实现以及讲解
 * GitHubDemo地址
+#### [Day12 - 树](https://mp.weixin.qq.com/s/vpeUr9XaHEiFyxXew_2xpQ)
+* 前言
+* 树的一些应用场景
+
 
