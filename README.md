@@ -90,4 +90,10 @@
 * 前言
 * 树的一些应用场景
 
+#### [Day13 - Binary Tree上](https://mp.weixin.qq.com/s/6dfqF59PVSgOn7zC7ra7Ng)
+* 一张图来描述Binary Tree
+* Binary Tree的几个常见类型
+* 和Binary Tree有关的一些公式
+* 二叉树的存储方式
+
 
