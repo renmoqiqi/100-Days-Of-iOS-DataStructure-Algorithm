@@ -101,13 +101,13 @@
 * 和Binary Tree有关的一些公式
 * 二叉树的存储方式
 
-#### [Day14 - Binary Tree Traversal](https://mp.weixin.qq.com/s/HbzRtnhMaMjmE_XmKO3Gdg)
+#### [Day14 - Binary Tree Traversal](https://mp.weixin.qq.com/s/CMeW_lShXhGuEIg_e6APhw)
 * 二叉树的周游算法
 * 练习周游算法的技巧 1
 * 练习周游算法的技巧 2
 * 练习周游算法的技巧 3
 * 延伸
-#### [Day15 - Binary Tree 的实现](https://mp.weixin.qq.com/s/HbzRtnhMaMjmE_XmKO3Gdg)
+#### [Day15 - Binary Tree 的实现](https://mp.weixin.qq.com/s/z4amZdPVjesche3wKE2K5w)
 
 * 二叉树的构建
 * 二叉树的插入，查找
