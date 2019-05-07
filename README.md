@@ -18,9 +18,7 @@
 #### 封面
 ![iOS数据结构与开发实战封面.png](https://upload-images.jianshu.io/upload_images/1304277-359a61e825c7a3e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
 
-#### 目录内容
-
-![电子书目录](https://upload-images.jianshu.io/upload_images/1304277-f574ef3585614783.GIF?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
+## 目录内容
 
 #### [Day01 - 算法的符号大O](https://mp.weixin.qq.com/s?__biz=MzI0MTcwNDcyMw==&mid=2247483771&idx=1&sn=9e3a500ee8845e2e7601a085c850bb3b&chksm=e906cb07de714211ee7308c49ffd2059e73be421d3e7174f86b69f8f2e0e39a4acaa05369b80&token=99181284&lang=zh_CN#rd)
 
@@ -101,10 +99,16 @@
 * 和Binary Tree有关的一些公式
 * 二叉树的存储方式
 
-#### [Day14 - Binary Tree Traversal](https://mp.weixin.qq.com/s/HbzRtnhMaMjmE_XmKO3Gdg)
+#### [Day14 - Binary Tree Traversal](https://mp.weixin.qq.com/s/CMeW_lShXhGuEIg_e6APhw)
 * 二叉树的周游算法
 * 练习周游算法的技巧 1
 * 练习周游算法的技巧 2
 * 练习周游算法的技巧 3
 * 延伸
+#### [Day15 - Binary Tree 的实现](https://mp.weixin.qq.com/s/z4amZdPVjesche3wKE2K5w)
+
+* 二叉树的构建
+* 二叉树的插入，查找
+* 二叉树的前中后序遍历
+* GitHubDemo地址
 
