@@ -23,32 +23,39 @@
     [tree insertNode:@3 parent:@1 isLeftChild:NO];
     [tree insertNode:@5 parent:@2 isLeftChild:NO];
 
-    NSMutableArray <NSMutableString *> *results = [NSMutableArray array];
+    NSMutableArray <NSString *> *results = [NSMutableArray array];
     
-    [self printPathsRecurTreeNode:tree.root path:[[NSString stringWithFormat:@"%@",tree.root.object] mutableCopy] results:results];
+    [self printPathsRecurTreeNode:tree.root path:@""  results:results];
     NSLog(@"%@",results);
 }
 
 
-- (void )printPathsRecurTreeNode:(DSTreeNode *)treeNode path:(NSMutableString *)path results:(NSMutableArray <NSMutableString *>*)results
+- (void )printPathsRecurTreeNode:(DSTreeNode *)treeNode path:(NSString *)path results:(NSMutableArray <NSString *>*)results
 {
     if (treeNode == nil) {
         return;
     }
     if (treeNode.leftChild == nil && treeNode.rightChild == nil)
     {
-        [results addObject:path];
+        NSString *resultsStr = [NSString stringWithFormat:@"%@%@",path,treeNode.object];
+        [results addObject:resultsStr];
+
     }
-    if (treeNode.leftChild != nil)
+    else
     {
-        [path appendString:[NSString stringWithFormat:@"->%@",treeNode.leftChild.object]];
-        [self printPathsRecurTreeNode:treeNode.leftChild path:path results:results];
+        if (treeNode.leftChild != nil)
+        {
+            NSString *resultsStr = [NSString stringWithFormat:@"%@%@",path,[NSString stringWithFormat:@"%@->",treeNode.object]];
+
+            [self printPathsRecurTreeNode:treeNode.leftChild path:resultsStr results:results];
+        }
+        if (treeNode.rightChild != nil )
+        {
+            NSString *resultsStr = [NSString stringWithFormat:@"%@%@",path,[NSString stringWithFormat:@"%@->",treeNode.object]];
+            [self printPathsRecurTreeNode:treeNode.rightChild path:resultsStr results:results];
+        }
     }
-    if (treeNode.rightChild != nil )
-    {
-        [path appendString:[NSString stringWithFormat:@"->%@",treeNode.rightChild.object]];
-        [self printPathsRecurTreeNode:treeNode.rightChild path:path results:results];
-    }
+    
 
 }
 
