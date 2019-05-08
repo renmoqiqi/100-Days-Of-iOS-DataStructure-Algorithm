@@ -112,3 +112,10 @@
 * 二叉树的前中后序遍历
 * GitHubDemo地址
 
+#### [Day16 -  二叉树的算法实战 Binary Tree Paths](https://mp.weixin.qq.com/s/8YoFHtVtjWovyzl5gaIwhA)
+
+* 题目大意
+* 灵感思路
+* 主要代码
+* 代码思路
+* GitHubDemo地址
