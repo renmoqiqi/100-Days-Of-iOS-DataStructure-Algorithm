@@ -30,7 +30,7 @@
 }
 
 
-- (void )printPathsRecurTreeNode:(DSTreeNode *)treeNode path:(NSString *)path results:(NSMutableArray <NSString *>*)results
+- (void)printPathsRecurTreeNode:(DSTreeNode *)treeNode path:(NSString *)path results:(NSMutableArray <NSString *>*)results
 {
     if (treeNode == nil) {
         return;
