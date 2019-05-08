@@ -25,23 +25,26 @@
 }
 
 //插入结点
-- (BOOL)insertNode:(DSTreeNode *)node parent:(DSTreeNode *)parent isLeftChild:(BOOL)value
+- (BOOL)insertNode:(NSObject *)node parent:(NSObject *)parent isLeftChild:(BOOL)value
 {
+    DSTreeNode *treeNode = [[DSTreeNode alloc] init];
+    treeNode.object = node;
+    DSTreeNode *parentNode = [self find:parent];
     //如果插入的是左孩子结点并且左孩子结点不存在可以插入
-    if (value == true && parent.leftChild == nil) {
-    //插入的结点父结点是parent
-        node.parent = parent;
+    if (value == true && parentNode.leftChild == nil) {
+        //插入的结点父结点是parent
+        treeNode.parent = parentNode;
         //父结点的左孩子结点是当前结点
-        parent.leftChild = node;
+        parentNode.leftChild = treeNode;
     }
     //否则插入的是右孩子结点
-    else if (parent.rightChild == nil) {
-        node.parent = parent;
-        parent.rightChild = node;
+    else if (parentNode.rightChild == nil) {
+        treeNode.parent = parentNode;
+        parentNode.rightChild = treeNode;
     }
     //如果某个结点的左右孩子结点都存在结束 并提示错误
     else {
-        NSAssert(parent.leftChild != nil || parent.rightChild != nil, @"Can't insert into parent node!");
+        NSAssert(parentNode.leftChild != nil || parentNode.rightChild != nil, @"Can't insert into parent node!");
         return false;
     }
     return true;

@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) DSTreeNode *root;
 
 - (instancetype)initWithObject:(NSObject *)object;
-- (BOOL)insertNode:(DSTreeNode *)node parent:(DSTreeNode *)parent isLeftChild:(BOOL)value;
+- (BOOL)insertNode:(NSObject *)node parent:(NSObject *)parent isLeftChild:(BOOL)value;
 - (DSTreeNode *)find:(NSObject *)object;
 
 - (void)preOrderTraversal;

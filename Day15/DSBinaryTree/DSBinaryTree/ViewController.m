@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DSBinaryTree.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DSBinaryTree *tree = [[DSBinaryTree alloc] initWithObject:@1];
+    [tree insertNode:@2 parent:@1 isLeftChild:YES];
+    [tree insertNode:@3 parent:@1 isLeftChild:NO];
+    [tree insertNode:@5 parent:@2 isLeftChild:NO];
+
 }
 
 
