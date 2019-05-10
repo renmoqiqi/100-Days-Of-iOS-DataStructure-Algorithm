@@ -69,9 +69,15 @@ static const int kDefaultCapacity = 4;
     if ([self isFull] && self.maxStackSize) {
         
         NSMutableArray *newArray = [[NSMutableArray alloc] initWithCapacity:_maxStackSize*2];
-        self.stackArray = [newArray mutableCopy];
+        for (id object in self.stackArray)
+        {
+            @autoreleasepool {
+                [newArray addObject:object];
+            }
+        }
+        self.stackArray = newArray;
         _maxStackSize = _maxStackSize*2;
-
+        
     }
     if (object != nil) {
         [self.stackArray addObject:object];
@@ -129,7 +135,13 @@ static const int kDefaultCapacity = 4;
     int stackSize = (int)(self.stackArray.count);
     if( stackSize < capacitySize ) {
         NSMutableArray *newArray = [[NSMutableArray alloc] initWithCapacity:stackSize];
-        self.stackArray = [newArray mutableCopy];
+        for (id object in self.stackArray)
+        {
+            @autoreleasepool {
+                [newArray addObject:object];
+            }
+        }
+        self.stackArray = newArray;
         _maxStackSize = stackSize;
 
     }

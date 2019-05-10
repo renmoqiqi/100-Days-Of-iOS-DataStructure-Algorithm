@@ -19,13 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    DSStack *testStack = [[DSStack alloc] initWithSize:4];
+    DSStack *testStack = [[DSStack alloc] initWithSize:10];
     [testStack push:@"1"];
     [testStack push:@"2"];
     [testStack push:@"5"];
     NSLog(@"%@",testStack);
     [testStack popLastObject];
-
+    [testStack compressedStack];
 
 }
 
